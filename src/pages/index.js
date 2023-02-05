@@ -30,7 +30,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
       description="This is the official BOT Website">
       <HomepageHeader />
       <main>
