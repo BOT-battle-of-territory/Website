@@ -2,23 +2,7 @@
 slug: welcome
 title: Welcome
 authors: rohith
-tags: [facebook, hello, docusaurus]
+tags: [welcome, hello, bot]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
-
-Simply add Markdown files (or folders) to the `blog` directory.
-
-Regular blog authors can be added to `authors.yml`.
-
-The blog post date can be extracted from filenames, such as:
-
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+Hello and welcome to the official BOT blog Here we Will post all the important information about about The devlopement and Status of the game as of now The Game Progress is at 10%. We will keep you updated of the progress of the game. Thanks!
