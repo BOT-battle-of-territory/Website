@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "BOT Website",
   tagline: "The Official BOT Website",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.ico",
 
   // Set the production url of your site here
   url: "https://BOT-Game.netlify.app",
@@ -69,7 +69,11 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/BOT-battle-of-territory",
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            to: "https://github.com/BOT-battle-of-territory",
             label: "GitHub",
             position: "right",
           },
@@ -92,7 +96,7 @@ const config = {
             items: [
               {
                 label: "Github",
-                href: "https://github.com/BOT-battle-of-territory",
+                to: "https://github.com/BOT-battle-of-territory",
               },
             ],
           },
@@ -106,6 +110,10 @@ const config = {
               {
                 label: "Credits",
                 to: "/blog/credits",
+              },
+              {
+                label: "Download",
+                to: "https://play.google.com/store/apps/details?id=com.dts.freefiremax",
               },
             ],
           },
